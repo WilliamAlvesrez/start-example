@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://williamalves:5rX5Sye3btjV30wb@cluster0.nvtdo.mongodb.net/
+      database: myDatabase
+logging:
+  level:
+    org:
+      springframework:
+        data:
+          mongodb:
+            core:
+              MongoTemplate: DEBUG
